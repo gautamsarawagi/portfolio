@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with React.js, Next.js , Node.js, Express.js and MongoDb",
   resumeLink:
-    "https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing",
+    "https://docs.google.com/document/d/1eg2c1zxA6CQwhbxnujytEqBZgfKj6ZYZ5ksRrdHx7eM/edit?usp=sharing",
 };
 
 export const openSource = {
