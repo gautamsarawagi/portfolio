@@ -57,6 +57,7 @@ export type EducationType = {
   duration: string;
   grade?: string;
   descBullets?: string[];
+  desc?:string
 };
 
 // * EXPERIENCE SECTION
