@@ -46,6 +46,7 @@ export const skillsSection: SkillsSectionType = {
         ),
         emoji("⚡ Building responsive static websites using Next.js"),
         emoji("⚡ Building RESTful APIs in Nodejs & ExpressJs REST Framework"),
+        emoji("⚡ Integrating third-party APIs and libraries to enhance application functionality")
       ],
       softwareSkills: [
         {
@@ -62,7 +63,7 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "TypeScript",
-          fontAwesomeClassName: "logos:typescript",
+          fontAwesomeClassName: "skill-icons:typescript",
         },
         {
           skillName: "Reactjs",
@@ -74,20 +75,33 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "Nodejs",
-          fontAwesomeClassName: "logos:node-js",
+          fontAwesomeClassName: "logos:nodejs",
         },
         {
           skillName: "Redux",
           fontAwesomeClassName: "logos:redux",
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassName: "logos:npm-icon",
+          skillName: "Express-Js",
+          fontAwesomeClassName: "skill-icons:expressjs-dark",
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassName: "logos:yarn",
+          skillName: "MongoDB",
+          fontAwesomeClassName: "skill-icons:mongodb",
         },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassName: "logos:firebase",
+        },
+        {
+          skillName: "Graphql",
+          fontAwesomeClassName: "skill-icons:graphql-dark",
+        },
+        {
+          skillName: "FastApi",
+          fontAwesomeClassName: "skill-icons:fastapi",
+        },
+        
       ],
     },
   ],
