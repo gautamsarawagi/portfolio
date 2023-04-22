@@ -72,9 +72,6 @@ export const ContactUs = () => {
           }
         );
     }
-
-    e.target.reset()
-
   };
 
   return (
