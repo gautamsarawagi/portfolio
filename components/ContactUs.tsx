@@ -72,6 +72,9 @@ export const ContactUs = () => {
           }
         );
     }
+
+    e.target.reset()
+
   };
 
   return (
@@ -102,7 +105,7 @@ export const ContactUs = () => {
                         <Input
                           placeholder="Your name"
                           type="text"
-                          name="user_name"
+                          name="name"
                         />
                       </InputGroup>
                     </FormGroup>
@@ -113,7 +116,7 @@ export const ContactUs = () => {
                           </InputGroupText>
                         <Input
                           placeholder="Email address"
-                          name="user_email"
+                          name="email"
                           type="email"
                         />
                       </InputGroup>
@@ -122,7 +125,7 @@ export const ContactUs = () => {
                       <Input
                         className="form-control-alternative"
                         cols="80"
-                        name="user_message"
+                        name="message"
                         placeholder="Type a message..."
                         rows="4"
                         type="textarea"
