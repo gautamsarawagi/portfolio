@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with React.js, Next.js , Node.js, Express.js and MongoDb",
   resumeLink:
-    "https://docs.google.com/document/d/1eg2c1zxA6CQwhbxnujytEqBZgfKj6ZYZ5ksRrdHx7eM/edit?usp=sharing",
+    "https://drive.google.com/file/d/1eNA8RiAGz5jbOhFio52DMtVMB0iNFS9W/view?usp=sharing",
 };
 
 export const openSource = {
@@ -148,7 +148,7 @@ export const experience: ExperienceType[] = [
     company: "Newton School",
     companyLogo: "/img/icons/newton.png",
     date: "Aug 2021 – Jun 2022",
-    desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using React js, Bootstrap, Chart.js and some other libraries.",
+    desc: "Developed scalable software solutions, implementing industry best practices and optimising performance for enhanced user experience.Collaborated in an agile team environment, actively participating in daily stand-ups, sprint planning, and code reviews.",
   }
 ];
 
@@ -205,9 +205,9 @@ export const showContactUs: boolean = true;
 export const seoData: SEODataType = {
   title: "Gautam Sarawagi",
   description: "A passionate Full Stack Web Developer",
-  author: "Hanzla Tauqeer",
-  image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Gautam Sarawagi",
+  image: "https://avatars.githubusercontent.com/u/101802666?v=4",
+  url: "https://gautamsarawagi.netlify.app/",
   keywords: [
     "Gautam",
     "Gautam Sarawagi",
