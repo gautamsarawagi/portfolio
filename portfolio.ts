@@ -143,6 +143,13 @@ export const experience: ExperienceType[] = [
     date: "Aug 2021 – Jun 2022",
     desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using React js, Bootstrap, Chart.js and some other libraries.",
   },
+  {
+    role: "SDE Intern",
+    company: "Newton School",
+    companyLogo: "/img/icons/newton.png",
+    date: "Aug 2021 – Jun 2022",
+    desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using React js, Bootstrap, Chart.js and some other libraries.",
+  }
 ];
 
 export const projects: ProjectType[] = [
@@ -169,7 +176,7 @@ export const projects: ProjectType[] = [
   {
     name: "Watcher App",
     desc: "Watcher is a cutting-edge security protocol that uses different deep learning models and artificial intelligence to track motor vehicles, criminals, theft and illegal trespassing via a modern CCTV network. Also secure the first prize in the hackathon.",
-    github: "https://github.com/1hanzla100/django-react-forum",
+    github: "https://github.com/gautamsarawagi/Watcher_App",
     roles: [
       "Integrated python backend and next js frontend",
       "Integrated mapbox and plate recognizer Api",
