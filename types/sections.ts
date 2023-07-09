@@ -67,8 +67,8 @@ export type ExperienceType = {
   company: string;
   companyLogo: string;
   date: string;
-  desc: string;
-  descBullets?: string[];
+  desc?: string;
+  descBullets: string[];
 };
 
 // * PROJECT SECTION

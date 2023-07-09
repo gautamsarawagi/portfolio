@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: "https://1hanzla100.github.io/",
+  url: "",
   linkedin: "https://www.linkedin.com/in/gautam-sarawagi-64b1b4227/",
   github: "https://github.com/gautamsarawagi",
   twitter: "https://twitter.com/gautamsarawagi_",
@@ -137,18 +137,27 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "SDE Intern",
+    company: "Newton School",
+    companyLogo: "/img/icons/common/newton.png",
+    date: "Aug 2021 – Jun 2022",
+    descBullets: [
+      "Developed scalable software solutions, implementing industry best practices and optimising performance for enhanced user experience.",
+      "Collaborated in an agile team environment, actively participating in daily stand-ups, sprint planning, and code reviews.",
+      "Resolved technical challenges, debugging code and maintained the codebase integrity."
+
+    ]
+  },
+  {
     role: "React Developer",
     company: "EV Digital Technology",
     companyLogo: "/img/icons/common/evd.png",
     date: "Aug 2021 – Jun 2022",
-    desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using React js, Bootstrap, Chart.js and some other libraries.",
-  },
-  {
-    role: "SDE Intern",
-    company: "Newton School",
-    companyLogo: "/img/icons/newton.png",
-    date: "Aug 2021 – Jun 2022",
-    desc: "Developed scalable software solutions, implementing industry best practices and optimising performance for enhanced user experience.Collaborated in an agile team environment, actively participating in daily stand-ups, sprint planning, and code reviews.",
+    descBullets: [
+      "Collaborated a team of 5 developers to successfully deliver 5+ projects within their respective deadlines, resulting in an overall client satisfaction score of 9.5/10.",
+      "Communicated with clients and stakeholders to understand project requirements and provide updates on progress.",
+      "Regularly attended industry conferences and training sessions to stay updated on the latest web developmenttechnologies and trends"
+    ],
   }
 ];
 
